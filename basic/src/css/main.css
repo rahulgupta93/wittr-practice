@@ -1,0 +1,60 @@
+body {
+  background-color: whitesmoke;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.max-width-100 {
+  max-width: 100%;
+}
+
+.tweet-card {
+  background-color: white;
+  border: #80808096 solid thin;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.tweet-image {
+  max-width: 100%;
+}
+
+.tweet-image > img {
+  width: 100%;
+}
+
+.tweet-text, .tweet-details {
+  padding: 5px 8px;
+}
+
+.tweet-details {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.tweet-profile {
+  align-items: center;
+  display: flex;
+}
+
+img.profile-image {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.user-name {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.tweet-timestamp {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  color: #4c4c4c;
+}
