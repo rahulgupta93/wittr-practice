@@ -1,13 +1,28 @@
 body {
   background-color: whitesmoke;
+  margin: 0;
 }
 
-.width-100 {
-  width: 100%;
+header {
+  background-color: #2196F3;
+  padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
-.max-width-100 {
-  max-width: 100%;
+main {
+  margin: 8px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.logo-text {
+  margin-left: 8px;
+  color: white;
+  font-weight: bold;
 }
 
 .tweet-card {
@@ -57,4 +72,10 @@ img.profile-image {
   align-items: center;
   font-size: small;
   color: #4c4c4c;
+}
+
+.logo-img {
+  width: 35px;
+  height: 30px;
+  border-radius: 5px;
 }
